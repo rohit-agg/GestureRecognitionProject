@@ -1,5 +1,5 @@
 # Gesture Recognition Project
-> 
+> Develop a cool feature in the smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote 
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -13,15 +13,14 @@
 ## General Information
 
 #### Objective
+Develop a cool feature in the smart-TV that can recognise five different gestures performed by the user which will help users control the TV without using a remote
 
 ## Approach
 
 Following is the step-by-step approach followed to solve the given problem statement:
-1. Data Understanding
-1. Building Simple Model (Model I)
-1. Building Model with Augment layer (Model II)
-1. Using Augmentor (for increase dataset)
-1. Building Model with Augmentor dataset (Model III)
+1. Generator
+1. Model using Conv3D
+1. Model using Conv2D and GRU/LSTM
 
 ## Conclusions
 
@@ -32,7 +31,6 @@ Following is the step-by-step approach followed to solve the given problem state
 - MatplotLib (ver 3.9.2)
 - Tensorflow (ver 2.18.0)
 - Keras (ver 3.8.0)
-- Augmentor (ver 0.2.12)
 
 ## Acknowledgements
 
